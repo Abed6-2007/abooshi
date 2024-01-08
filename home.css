@@ -1,0 +1,161 @@
+header{
+	width:auto;
+	height:40px;
+	background-color:;
+}
+nav a{
+	position: ;
+	text-decoration:none;
+	color:black;
+	display:block;
+}
+nav > ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+nav> ul > li > a{
+padding:10px;
+background-color:white;
+}
+	
+nav> ul >li >a:hover{
+	background:black;
+	color:white;
+}
+nav li {
+	float: left;
+	width:24%;
+	text-align:center;
+	border-right:10px solid white;
+}
+img{
+	width:1200px;
+	height:400px;
+	margin-left:65px;
+	margin-top:10vh;
+}
+
+#ca>ul>li>a:hover{
+	background:black;
+	color:white;
+	width:150px;
+	height:150px;
+}
+#ca{
+	display:block;
+	text-decoration:none;
+	list-style-type:none;
+	padding:10px;
+	background-color:white;
+	width:auto;
+	height:auto;
+	color:black;
+	background:white;
+	margin-top:50vh;
+	border:5px solid ;
+	border-width:100px;
+}
+#ca,a{
+		text-decoration:none;
+	list-style-type:none;
+	color:black;
+text-align:center;
+}
+main{
+	margin-top:20vh;
+}
+h2{
+	text-align:center;
+	margin-top:18vh;
+	font-size:50px;
+}
+.hi{
+	position:fixed;
+	height:100px;
+	left:-60px;
+	width:100px;
+	top:-60px;
+}
+#img1{
+width:250px;
+height:250px;
+margin-left:25px;
+transition-duration:2s;
+}
+#img1:hover{
+	width:300px;
+	height:300px;
+}
+#imgs1{
+	width:300px;
+	height:400px;
+	background-color:#2776EA;
+	margin-left:10px;
+	margin-top:30vh;
+}
+#img2{
+	width:250px;
+	height:250px;
+	margin-left:22px;
+	transition-duration:2s;
+}
+#imgs2{
+		width:300px;
+	height:400px;
+	background-color:#2776EA;
+	margin-left:340px;
+	margin-top:-60vh;
+		align-items:center;
+
+}
+#img2:hover{
+	width:300px;
+	height:300px;
+}
+#imgs3{
+	width:300px;
+	height:400px;
+	background-color:#2776EA;
+	margin-left:670px;
+	margin-top:-60vh;
+}
+#img3{
+	width:250px;
+	height:250px;
+	margin-left:23px;
+		transition-duration:2s;
+
+}
+#img3:hover{
+	width:300px;
+	height:300px;
+}
+#imgs4{
+	width:300px;
+	height:400px;
+		background-color:#2776EA;
+margin-left:1000px;
+margin-top:-60vh;
+}
+#img4{
+	width:250px;
+	height:250px;
+			transition-duration:2s;
+margin-left:24px;
+}
+#img4:hover{
+		width:300px;
+	height:300px;
+}
+#img6{
+	width:60px;
+	height:60px;
+	margin-left:350px;
+	margin-top:20px;
+}
+#img7{
+	width:90px;
+	height:90px;
+	margin-left:500px;
+}
