@@ -1,48 +1,63 @@
-header{
-	width:auto;
-	height:40px;
-	background-color:;
-}
-nav a{
-	position: ;
-	text-decoration:none;
-	color:black;
-	display:block;
-}
-nav > ul{
-	list-style-type:none;
-	margin:0;
+*{
 	padding:0;
+	margin:0;
+	box-sizing:border-box;
+	font-family:'poppins' , sans-serif;
+	list-style:none;
+	text-decoration:none;
 }
-nav> ul > li > a{
-padding:10px;
-background-color:white;
+header{
+	position:fixed;
+	right:0;
+	top:0;
+	z-index:1000;
+	width:100%;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	padding:33px 9%;
+	background:transparent;	
 }
+body{
+	display:flex;
+	height:100vh;
+	flex-direction:column;
+	max-width:1440px;
+background:red;
+}
+.logo{
+	font-size:30px;
+	font-weight:700;
+	color:white;
+}
+.navlist{
+	display:flex;
+}
+.navlist a{
+	color:white;
+	margin-left:60px;
+	font-size:15px;
+	font-weight:600;
+	border-bottom:2px solid transparent;
+	transition:all .55s ease;
 	
-nav> ul >li >a:hover{
-	background:black;
+}
+.navlist a:hover{
+	border-bottom:2px solid white;
+}
+#mnue-icon{
 	color:white;
+	font-size:30px;
+	z-index:10001;
+	cursor:pointer;
+	display:none;
 }
-nav li {
-	float: left;
-	width:24%;
-	text-align:center;
-	border-right:10px solid white;
-}
-img{
-	width:1200px;
-	height:400px;
-	margin-left:65px;
-	margin-top:10vh;
-}
-
-#ca>ul>li>a:hover{
-	background:black;
-	color:white;
-	width:150px;
-	height:150px;
-}
-#ca{
+	img{
+		width:200px;
+		height:200px;
+		margin-left:250px;
+		margin-top:20vh;
+	}
 	display:block;
 	text-decoration:none;
 	list-style-type:none;
